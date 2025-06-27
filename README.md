@@ -96,3 +96,5 @@ Bug reports and feature suggestions are also very welcome — please open an iss
 ## Licence
 
 This project is licensed under the ISC licence — see [`LICENSE`](LICENSE) for the full text.
+
+[Icon by Rian Maulana](https://www.freepik.com/icon/alarm_7467233#fromView=search&page=1&position=8&uuid=42edda76-22f3-47b5-a45f-c02c51a1cdca)
