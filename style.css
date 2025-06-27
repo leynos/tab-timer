@@ -1,0 +1,21 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 10px;
+  width: 300px;
+}
+label {
+  display: inline-block;
+  margin-right: .5rem;
+}
+input {
+  width: 3em;
+}
+button {
+  margin-left: .5rem;
+}
+ul {
+  padding-left: 1em;
+}
+li {
+  margin-bottom: .5rem;
+}
