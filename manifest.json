@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Countdown Timer",
+  "description": "Attach per‑tab countdown timers that ring, toast, and mark the tab with 🔔 when done.",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "storage",
+    "alarms",
+    "notifications",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Tab Countdown Timer",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icons/bell-48.png",
+    "96": "icons/bell-96.png"
+  }
+}
