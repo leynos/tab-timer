@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tab Countdown</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Set timer for this tab</h2>
+  <form id="setTimerForm">
+    <label>Hours <input type="number" id="hours" min="0" value="0" /></label>
+    <label>Minutes <input type="number" id="minutes" min="0" value="0" /></label>
+    <label>Seconds <input type="number" id="seconds" min="0" value="0" /></label>
+    <button type="submit">Start</button>
+  </form>
+  <hr>
+  <h2>Running &amp; elapsed timers</h2>
+  <ul id="timerList"></ul>
+  <template id="timerRow">
+    <li>
+      <span class="title"></span>
+      <span class="remaining"></span>
+      <button class="snooze">Snooze 5 min</button>
+      <button class="cancel">Cancel</button>
+    </li>
+  </template>
+  <script src="popup.js"></script>
+</body>
+</html>
