@@ -57,6 +57,8 @@ $ make build        # produces dist/tab-timer-vX.Y.Z.xpi
 ├── icons/
 │   ├── bell-48.png        # Toolbar / notification icons
 │   └── bell-96.png
+|   └── bell-512.png
+└── AGENTS.md              # Guide for agentic AI contributers
 ├── LICENSE                # ISC licence
 ├── Makefile               # Convenience tasks (build, run, lint, clean)
 └── README.md              # This file
