@@ -1,5 +1,8 @@
 # Tab Timer ‑ a per‑tab countdown extension for Firefox
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](
+https://deepwiki.com/leynos/tab-timer)
+
 A lightweight WebExtension that lets you attach an individual countdown timer to any open tab.  When the timer elapses the tab’s title is prefixed with a 🔔 bell, a desktop notification is raised, and the extension’s popup keeps track of all running/elapsed timers with buttons to *Cancel* or *Snooze*.
 
 <div align="center">
