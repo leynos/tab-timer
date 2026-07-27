@@ -8,9 +8,12 @@ SRC_FILES := manifest.json \
             background.js contentScript.js popup.html popup.js style.css \
             $(shell find icons -type f)
 
-.PHONY: all help build run lint clean
+.PHONY: all help build run lint clean fmt
 
 all: help
+
+fmt:
+	mdformat-all
 
 help:
 	@echo "Targets:"
@@ -36,4 +39,3 @@ lint:
 
 clean:
 	@rm -rf $(DIST_DIR)
-
